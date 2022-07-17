@@ -1,12 +1,14 @@
+import { useState } from "react";
 import logo from "../images/logo.svg";
-import menu from "../images/menu.svg";
 
 const Header = () => {
+    const [openMenu, setOpenMenu] = useState(false);
+
     return (
         <header className="header">
-            <button aria-label="toggle navigation">
-                <span className="menu--toggle--span"></span>
-                <span className="menu--toggle--span"></span>
+            <button aria-label="toggle navigation" onClick={() => setOpenMenu(!openMenu)}>
+                <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
+                <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
             </button>
             <img src={logo} alt="Sketch's logo" className="logo"/>
             <nav className="header--nav">

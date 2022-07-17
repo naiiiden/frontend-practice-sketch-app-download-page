@@ -23,6 +23,19 @@ header {
             width: 1.25rem;
             height: 0.125rem;
             border-radius: 9999px;
+            transition: .2s;
+
+            &.open {
+                transition: .2s;
+
+                &:nth-child(1) {
+                    transform: rotate(45deg) translateY(2px) translateX(1.25px);
+                }
+                
+                &:nth-child(2) {
+                    transform: rotate(-45deg) translateY(-5.25px) translateX(4px);
+                }
+            }
         }
     }
 
