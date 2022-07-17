@@ -1,1 +1,0 @@
-# frontend-practice-sketch-app-download-page
