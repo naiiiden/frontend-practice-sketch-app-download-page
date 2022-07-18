@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../images/logo.svg";
+import { ReactComponent as Arrow } from "../images/arrow.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -14,12 +15,13 @@ const Header = () => {
             <nav className="header--nav">
                 <a href="#" className="sign-in--link">Sign In</a>
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
-                    <li>Product</li>
-                    <li>Learn</li>
+                    <li><span>Product</span> <Arrow/></li>
+                    <li><span>Learn</span> <Arrow/></li>
                     <li><a href="#">Apps</a></li>
                     <li><a href="#">Pricing</a></li>
-                    <li>Support</li>
+                    <li><span>Support</span> <Arrow/></li>
                     <li><a href="#">Get started for free</a></li>
+                    
                 </ul>
             </nav>
         </header>

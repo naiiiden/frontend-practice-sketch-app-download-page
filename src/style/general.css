@@ -142,10 +142,11 @@ header nav .header--nav--ul {
 }
 
 header nav .header--nav--ul.show {
-  border: 1px solid red;
+  list-style-type: none;
+  padding: 0 1rem 1.25rem 1rem;
   background: #fff;
   position: absolute;
-  top: 3.825rem;
+  top: 3.78075rem;
   left: 0;
   right: 0;
   display: -webkit-box;
@@ -155,5 +156,6 @@ header nav .header--nav--ul.show {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=general.css.map */
