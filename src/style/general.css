@@ -63,6 +63,8 @@ header {
   background-color: rgba(255, 255, 255, 0.85);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 header .overlay {
@@ -145,7 +147,14 @@ header .logo {
   right: 0;
   bottom: 1rem;
   top: 1rem;
-  margin: auto;
+  margin: 0 auto;
+}
+
+header .sign-in--link {
+  font-family: marfa-medium;
+  color: #000;
+  text-decoration: none;
+  margin-left: auto;
 }
 
 header nav {
@@ -161,24 +170,15 @@ header nav {
   width: 100%;
 }
 
-header nav .sign-in--link {
-  font-family: marfa-medium;
-  color: #000;
-  text-decoration: none;
-}
-
 header nav .header--nav--ul {
   display: none;
 }
 
 header nav .header--nav--ul.show {
+  width: 100%;
   list-style-type: none;
-  padding: 0 1rem 1.25rem 1rem;
   background: #fff;
-  position: absolute;
-  top: 3.78075rem;
-  left: 0;
-  right: 0;
+  margin-top: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

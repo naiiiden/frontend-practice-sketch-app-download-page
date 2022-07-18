@@ -18,8 +18,8 @@ const Header = () => {
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
             </button>
             <img src={logo} alt="Sketch's logo" className="logo"/>
+            <a href="#" className="sign-in--link">Sign In</a>
             <nav className="header--nav">
-                <a href="#" className="sign-in--link">Sign In</a>
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li onClick={() => (setOpenProduct(!openProduct), setOpenLearn(false), setOpenSupport(false))} className={`dropdown--button ${openProduct ? "active" : ""}`}><span>Product</span> <Arrow className={`arrow ${openProduct ? "rotate" : ""}`}/>
                         <ul className={`dropdown ${openProduct ? "show" : ""}`}>
