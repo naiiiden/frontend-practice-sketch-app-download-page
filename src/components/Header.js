@@ -18,7 +18,7 @@ const Header = () => {
             <nav className="header--nav">
                 <a href="#" className="sign-in--link">Sign In</a>
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
-                    <li onClick={() => setOpenProduct(!openProduct)}><span>Product</span> <Arrow className="arrow"/>
+                    <li onClick={() => (setOpenProduct(!openProduct), setOpenLearn(false), setOpenSupport(false))} className="dropdown--button"><span>Product</span> <Arrow className="arrow"/>
                         <ul className={`dropdown ${openProduct ? "show" : ""}`}>
                             <li><a href="#">Design</a></li>
                             <li><a href="#">Collaborate</a></li>
@@ -28,7 +28,7 @@ const Header = () => {
                             <li><a href="#">Updates</a></li>
                         </ul>
                     </li>
-                    <li onClick={() => setOpenLearn(!openLearn)}><span>Learn</span> <Arrow className="arrow"/>
+                    <li onClick={() => (setOpenLearn(!openLearn), setOpenProduct(false), setOpenSupport(false))} className="dropdown--button"><span>Learn</span> <Arrow className="arrow"/>
                         <ul className={`dropdown ${openLearn ? "show" : ""}`}>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Course: Sketch 101</a></li>
@@ -40,7 +40,7 @@ const Header = () => {
                     </li>
                     <li><a href="#">Apps</a></li>
                     <li><a href="#">Pricing</a></li>
-                    <li onClick={() => setOpenSupport(!openSupport)}><span>Support</span> <Arrow className="arrow"/>
+                    <li onClick={() => (setOpenSupport(!openSupport), setOpenLearn(false), setOpenProduct(false))} className="dropdown--button"><span>Support</span> <Arrow className="arrow"/>
                         <ul className={`dropdown ${openSupport ? "show" : ""}`}>
                             <li><a href="#">Help Center</a></li>
                             <li><a href="#">Contact Us</a></li>
