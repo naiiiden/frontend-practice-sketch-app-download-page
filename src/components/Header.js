@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <header className="header">
-            <button aria-label="toggle navigation" onClick={() => setOpenMenu(!openMenu)}>
+            <button aria-label="toggle navigation" onClick={() => (setOpenMenu(!openMenu), setOpenProduct(false), setOpenLearn(false), setOpenSupport(false))}>
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
             </button>
