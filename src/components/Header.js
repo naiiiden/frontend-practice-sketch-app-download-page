@@ -4,6 +4,9 @@ import { ReactComponent as Arrow } from "../images/arrow.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
+    const [openProduct, setOpenProduct] = useState(false);
+    const [openLearn, setOpenLearn] = useState(false);
+    const [openSupport, setOpenSupport] = useState(false);
 
     return (
         <header className="header">
@@ -15,11 +18,35 @@ const Header = () => {
             <nav className="header--nav">
                 <a href="#" className="sign-in--link">Sign In</a>
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
-                    <li><span>Product</span> <Arrow/></li>
-                    <li><span>Learn</span> <Arrow/></li>
+                    <li onClick={() => setOpenProduct(!openProduct)}><span>Product</span> <Arrow className="arrow"/>
+                        <ul className={`dropdown ${openProduct ? "show" : ""}`}>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Collaborate</a></li>
+                            <li><a href="#">Prototype</a></li>
+                            <li><a href="#">Workspaces</a></li>
+                            <li><a href="#">Extensions</a></li>
+                            <li><a href="#">Updates</a></li>
+                        </ul>
+                    </li>
+                    <li onClick={() => setOpenLearn(!openLearn)}><span>Learn</span> <Arrow className="arrow"/>
+                        <ul className={`dropdown ${openLearn ? "show" : ""}`}>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Course: Sketch 101</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Events & Meetups</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Research Labs</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Apps</a></li>
                     <li><a href="#">Pricing</a></li>
-                    <li><span>Support</span> <Arrow/></li>
+                    <li onClick={() => setOpenSupport(!openSupport)}><span>Support</span> <Arrow className="arrow"/>
+                        <ul className={`dropdown ${openSupport ? "show" : ""}`}>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Service Status</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Get started for free</a></li>
                     
                 </ul>

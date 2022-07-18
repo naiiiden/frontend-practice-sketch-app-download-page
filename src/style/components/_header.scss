@@ -75,6 +75,15 @@ header {
                 flex-direction: column;
                 border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
             }
+
+            .dropdown {
+                display: none;
+
+                &.show {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
         }
     }
 }
