@@ -86,6 +86,15 @@ header {
                 min-height: 3rem;
                 display: flex;
                 align-items: center;
+
+                .arrow {
+                    transition: .125s;
+
+                    &.rotate {
+                        transform: rotate(180deg);
+                        transition: .125s;
+                    }
+                }
             }
 
             .dropdown--button {

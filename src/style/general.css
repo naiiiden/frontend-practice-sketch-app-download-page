@@ -175,6 +175,18 @@ header nav .header--nav--ul li {
           align-items: center;
 }
 
+header nav .header--nav--ul li .arrow {
+  -webkit-transition: .125s;
+  transition: .125s;
+}
+
+header nav .header--nav--ul li .arrow.rotate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: .125s;
+  transition: .125s;
+}
+
 header nav .header--nav--ul .dropdown--button {
   min-height: unset;
   display: -webkit-box;

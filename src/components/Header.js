@@ -18,7 +18,7 @@ const Header = () => {
             <nav className="header--nav">
                 <a href="#" className="sign-in--link">Sign In</a>
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
-                    <li onClick={() => (setOpenProduct(!openProduct), setOpenLearn(false), setOpenSupport(false))} className="dropdown--button"><span>Product</span> <Arrow className="arrow"/>
+                    <li onClick={() => (setOpenProduct(!openProduct), setOpenLearn(false), setOpenSupport(false))} className="dropdown--button"><span>Product</span> <Arrow className={`arrow ${openProduct ? "rotate" : ""}`}/>
                         <ul className={`dropdown ${openProduct ? "show" : ""}`}>
                             <li><a href="#">Design</a></li>
                             <li><a href="#">Collaborate</a></li>
