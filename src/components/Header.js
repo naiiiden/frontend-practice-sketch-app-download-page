@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../images/logo.svg";
 import { ReactComponent as Arrow } from "../images/arrow.svg";
+import { ReactComponent as SideArrow } from "../images/side_arrow.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -44,7 +45,7 @@ const Header = () => {
                         <ul className={`dropdown ${openSupport ? "show" : ""}`}>
                             <li><a href="#">Help Center</a></li>
                             <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Service Status</a></li>
+                            <li><a href="#" className="status">Service Status <SideArrow className="side--arrow"/></a></li>
                         </ul>
                     </li>
                     <li><a href="#" className="get--started">Get started for free</a></li>
