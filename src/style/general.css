@@ -197,6 +197,13 @@ header nav .header--nav--ul .dropdown--button {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-transition: .125s;
+  transition: .125s;
+}
+
+header nav .header--nav--ul .dropdown--button .arrow {
+  -webkit-transition: .125s;
+  transition: .125s;
 }
 
 header nav .header--nav--ul .dropdown--button span {
@@ -207,6 +214,18 @@ header nav .header--nav--ul .dropdown--button span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+header nav .header--nav--ul .dropdown--button.active {
+  color: rgba(0, 0, 0, 0.48);
+  -webkit-transition: .125s;
+  transition: .125s;
+}
+
+header nav .header--nav--ul .dropdown--button.active .arrow {
+  stroke: rgba(0, 0, 0, 0.48);
+  -webkit-transition: .125s;
+  transition: .125s;
 }
 
 header nav .header--nav--ul .dropdown {

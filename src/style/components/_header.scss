@@ -102,11 +102,26 @@ header {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
+                transition: .125s;
+
+                .arrow {
+                    transition: .125s;
+                }
 
                 span {
                     height: 3rem;
                     display: flex;
                     align-items: center;
+                }
+
+                &.active {
+                    color: rgba(0,0,0,.48);
+                    transition: .125s;
+
+                    .arrow {
+                        stroke: rgba(0,0,0,.48);
+                        transition: .125s;
+                    }
                 }
             }
 
