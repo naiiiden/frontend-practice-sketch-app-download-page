@@ -49,9 +49,9 @@ const Header = () => {
                         </ul>
                     </li>
                     <li><a href="#" className="get--started">Get started for free</a></li>
-                    
                 </ul>
             </nav>
+            <div className={`overlay ${openMenu ? "overlay--open" : ""}`}></div>
         </header>
     )
 }

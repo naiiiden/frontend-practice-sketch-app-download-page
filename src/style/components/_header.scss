@@ -8,6 +8,27 @@ header {
     background-color: rgba(255,255,255,.85);
     backdrop-filter: blur(10px);
 
+    .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -999;
+        transition: .2s;
+        user-select: none;
+        pointer-events: none;
+
+        &.overlay--open {
+            background-color: rgba(255, 255, 255, .85);
+            backdrop-filter: blur(1rem);
+            z-index: -1;
+            transition: .2s;
+            user-select: all;
+            pointer-events: all;
+        }
+    }
+
     button {
         background: none;
         border: none;

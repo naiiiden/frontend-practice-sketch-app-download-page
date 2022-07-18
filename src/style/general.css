@@ -65,6 +65,36 @@ header {
           backdrop-filter: blur(10px);
 }
 
+header .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -999;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+header .overlay.overlay--open {
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  z-index: -1;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
+  pointer-events: all;
+}
+
 header button {
   background: none;
   border: none;
