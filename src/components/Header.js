@@ -34,7 +34,7 @@ const Header = () => {
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Course: Sketch 101</a></li>
                             <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Events & Meetups</a></li>
+                            <li><a href="#" className="events">Events & Meetups <span>1</span></a></li>
                             <li><a href="#">Newsletter</a></li>
                             <li><a href="#">Research Labs</a></li>
                         </ul>
