@@ -47,7 +47,7 @@ const Header = () => {
                             <li><a href="#">Service Status</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Get started for free</a></li>
+                    <li><a href="#" className="get--started">Get started for free</a></li>
                     
                 </ul>
             </nav>
