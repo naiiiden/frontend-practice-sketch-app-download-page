@@ -9,6 +9,8 @@ const Header = () => {
     const [openLearn, setOpenLearn] = useState(false);
     const [openSupport, setOpenSupport] = useState(false);
 
+    openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+
     return (
         <header className="header">
             <button aria-label="toggle navigation" onClick={() => setOpenMenu(!openMenu)}>
