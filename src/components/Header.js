@@ -26,7 +26,7 @@ const Header = () => {
                             <li><a href="https://www.sketch.com/design/">Design</a></li>
                             <li><a href="https://www.sketch.com/collaborate/">Collaborate</a></li>
                             <li><a href="https://www.sketch.com/prototype/">Prototype</a></li>
-                            <li><a href="https://www.sketch.com/workspaces/">Workspaces</a></li>
+                            <li className="bottom--border"><a href="https://www.sketch.com/workspaces/">Workspaces</a></li>
                             <li><a href="https://www.sketch.com/extensions/">Extensions</a></li>
                             <li><a href="https://www.sketch.com/updates/">Updates</a></li>
                         </ul>
@@ -36,7 +36,7 @@ const Header = () => {
                             <li><a href="https://www.sketch.com/blog/">Blog</a></li>
                             <li><a href="https://www.sketch.com/courses/sketch-101/">Course: Sketch 101</a></li>
                             <li><a href="https://www.sketch.com/docs/">Documentation</a></li>
-                            <li><a href="https://www.sketch.com/community/" className="events">Events & Meetups <span>1</span></a></li>
+                            <li className="bottom--border"><a href="https://www.sketch.com/community/" className="events">Events & Meetups <span>1</span></a></li>
                             <li><a href="https://www.sketch.com/newsletter/">Newsletter</a></li>
                             <li><a href="https://www.sketch.com/labs/">Research Labs</a></li>
                         </ul>
