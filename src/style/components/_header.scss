@@ -246,16 +246,32 @@ header {
                     position: relative;
 
                     .dropdown {
-                        &.show {
-                            position: absolute;
-                            top: 3rem;
-                            width: 14rem;
-                            background-color: #fff;
-                            border: 1px solid rgba(0,0,0,.08);
-                            border-radius: 12px;
-                            box-shadow: 0 4px 8px 0 rgba(0,0,0,.08);
-                            padding: unset;
+                        position: absolute;
+                        top: 0;
+                        display: flex;
+                        flex-direction: column;
+                        background-color: #fff;
+                        border: 1px solid rgba(0,0,0,.08);
+                        border-radius: 12px;
+                        box-shadow: 0 4px 8px 0 rgba(0,0,0,.08);
+                        width: 14rem;
+                        opacity: 0;
+                        transform: translateY(0);
+                        transition: .1s;
+                        visibility: hidden;
+                        user-select: none;
+                        pointer-events: none;
 
+                        &.show {
+                            padding-left: unset;
+                            width: 14rem;
+                            opacity: 1;
+                            transform: translateY(3rem);
+                            transition: .2s;
+                            visibility: visible;
+                            user-select: all;
+                            pointer-events: all;
+                            
                             li {
                                 padding: 0 1rem;
 
