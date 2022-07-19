@@ -18,39 +18,39 @@ const Header = () => {
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
             </button>
             <img src={logo} alt="Sketch's logo" className="logo"/>
-            <a href="#" className="sign-in--link">Sign In</a>
+            <a href="https://www.sketch.com/signin/" className="sign-in--link">Sign In</a>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li onClick={() => (setOpenProduct(!openProduct), setOpenLearn(false), setOpenSupport(false))} className={`dropdown--button ${openProduct ? "active" : ""}`}><span>Product</span> <Arrow className={`arrow ${openProduct ? "rotate" : ""}`}/>
                         <ul className={`dropdown ${openProduct ? "show" : ""}`}>
-                            <li><a href="#">Design</a></li>
-                            <li><a href="#">Collaborate</a></li>
-                            <li><a href="#">Prototype</a></li>
-                            <li><a href="#">Workspaces</a></li>
-                            <li><a href="#">Extensions</a></li>
-                            <li><a href="#">Updates</a></li>
+                            <li><a href="https://www.sketch.com/design/">Design</a></li>
+                            <li><a href="https://www.sketch.com/collaborate/">Collaborate</a></li>
+                            <li><a href="https://www.sketch.com/prototype/">Prototype</a></li>
+                            <li><a href="https://www.sketch.com/workspaces/">Workspaces</a></li>
+                            <li><a href="https://www.sketch.com/extensions/">Extensions</a></li>
+                            <li><a href="https://www.sketch.com/updates/">Updates</a></li>
                         </ul>
                     </li>
                     <li onClick={() => (setOpenLearn(!openLearn), setOpenProduct(false), setOpenSupport(false))} className={`dropdown--button ${openLearn ? "active" : ""}`}><span>Learn</span> <Arrow className="arrow"/>
                         <ul className={`dropdown ${openLearn ? "show" : ""}`}>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Course: Sketch 101</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#" className="events">Events & Meetups <span>1</span></a></li>
-                            <li><a href="#">Newsletter</a></li>
-                            <li><a href="#">Research Labs</a></li>
+                            <li><a href="https://www.sketch.com/blog/">Blog</a></li>
+                            <li><a href="https://www.sketch.com/courses/sketch-101/">Course: Sketch 101</a></li>
+                            <li><a href="https://www.sketch.com/docs/">Documentation</a></li>
+                            <li><a href="https://www.sketch.com/community/" className="events">Events & Meetups <span>1</span></a></li>
+                            <li><a href="https://www.sketch.com/newsletter/">Newsletter</a></li>
+                            <li><a href="https://www.sketch.com/labs/">Research Labs</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Apps</a></li>
-                    <li><a href="#">Pricing</a></li>
+                    <li><a href="https://www.sketch.com/apps/">Apps</a></li>
+                    <li><a href="https://www.sketch.com/pricing/">Pricing</a></li>
                     <li onClick={() => (setOpenSupport(!openSupport), setOpenLearn(false), setOpenProduct(false))} className={`dropdown--button ${openSupport ? "active" : ""}`}><span>Support</span> <Arrow className="arrow"/>
                         <ul className={`dropdown ${openSupport ? "show" : ""}`}>
-                            <li><a href="#">Help Center</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#" className="status">Service Status <SideArrow className="side--arrow"/></a></li>
+                            <li><a href="https://www.sketch.com/support/">Help Center</a></li>
+                            <li><a href="https://www.sketch.com/support/contact/">Contact Us</a></li>
+                            <li><a href="https://status.sketch.com/?_ga=2.230960919.902580692.1658032638-738430831.1655528579" className="status">Service Status <SideArrow className="side--arrow"/></a></li>
                         </ul>
                     </li>
-                    <li><a href="#" className="get--started">Get started for free</a></li>
+                    <li><a href="https://www.sketch.com/signup/" className="get--started">Get started for free</a></li>
                 </ul>
             </nav>
             <div className={`overlay ${openMenu ? "overlay--open" : ""}`}></div>
