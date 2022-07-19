@@ -17,7 +17,7 @@ const Header = () => {
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
             </button>
-            <img src={logo} alt="Sketch's logo" className="logo"/>
+            <a href="https://www.sketch.com/home/" className="logo--link"><img src={logo} alt="Sketch's logo" className="logo"/></a>
             <a href="https://www.sketch.com/signin/" className="sign-in--link desktop--invisible">Sign In</a>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>

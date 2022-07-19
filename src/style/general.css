@@ -364,6 +364,11 @@ header nav .header--nav--ul .dropdown.show {
   header .overlay, header button, header .desktop--invisible {
     display: none;
   }
+  header .logo--link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   header .logo {
     position: unset;
     margin: unset;
