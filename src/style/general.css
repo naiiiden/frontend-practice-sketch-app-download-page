@@ -540,7 +540,7 @@ header nav .header--nav--ul .dropdown.show {
 }
 
 .hero--section {
-  padding: 4rem 3.25rem 0 3.25rem;
+  padding: 4.25rem 3.25rem 0 3.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -565,5 +565,16 @@ header nav .header--nav--ul .dropdown.show {
   font-size: 1.25rem;
   font-family: marfa-light;
   line-height: 1.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero--section {
+    padding: 7rem 5rem 0 5rem;
+  }
+  .hero--section .hero--heading {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    letter-spacing: -1px;
+  }
 }
 /*# sourceMappingURL=general.css.map */

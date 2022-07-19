@@ -1,6 +1,6 @@
 .hero--section {
     // 2.25 sides
-    padding: 4rem 3.25rem 0 3.25rem;
+    padding: 4.25rem 3.25rem 0 3.25rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -19,5 +19,21 @@
         font-size: 1.25rem;
         font-family: marfa-light;
         line-height: 1.75rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero--section {
+        padding: 7rem 5rem 0 5rem;
+
+        .hero--heading {
+            font-size: 3.5rem;
+            line-height: 3.5rem;
+            letter-spacing: -1px;
+        }
+
+        p {
+
+        }
     }
 }
