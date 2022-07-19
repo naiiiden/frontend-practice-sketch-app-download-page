@@ -9,6 +9,10 @@ header {
     backdrop-filter: blur(10px);
     flex-wrap: wrap;
 
+    .separator {
+        display: none;
+    }
+
     .overlay {
         position: absolute;
         left: 0;
@@ -232,6 +236,13 @@ header {
         align-items: center;
         gap: 2rem;
 
+        .separator {
+            display: block;
+            height: 1.5rem;
+            border-right: 1px solid rgba(0,0,0,.08);
+            margin: 0 -1rem;
+        }
+
         .overlay, button, .desktop--invisible {
             display: none;
         }
@@ -258,6 +269,7 @@ header {
             .header--nav--ul {
                 margin-top: unset;
                 display: flex;
+                align-items: center;
                 flex-grow: 1;
                 gap: 2.5rem;
 

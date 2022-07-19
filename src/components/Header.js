@@ -51,6 +51,7 @@ const Header = () => {
                             <li><a href="https://status.sketch.com/?_ga=2.230960919.902580692.1658032638-738430831.1655528579" className="status">Service Status <SideArrow className="side--arrow"/></a></li>
                         </ul>
                     </li>
+                    <div className="separator"></div>
                     <li className="mobile--invisible"><a href="https://www.sketch.com/signin/" className="sign-in--link">Sign In</a></li>
                     <li><a href="https://www.sketch.com/signup/" className="get--started">Get started for free</a></li>
                 </ul>
