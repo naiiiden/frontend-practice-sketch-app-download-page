@@ -539,6 +539,12 @@ header nav .header--nav--ul .dropdown.show {
   }
 }
 
+@media screen and (min-width: 1600px) {
+  header {
+    padding: 1.25rem 16vw;
+  }
+}
+
 .hero--section {
   padding: 4.25rem 3.25rem 0 3.25rem;
   display: -webkit-box;
