@@ -577,4 +577,20 @@ header nav .header--nav--ul .dropdown.show {
     letter-spacing: -1px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .hero--section {
+    margin: auto;
+    max-width: 1000px;
+  }
+  .hero--section .hero--heading {
+    font-size: 4.75rem;
+    line-height: 4.75rem;
+    letter-spacing: -1.5px;
+  }
+  .hero--section p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
