@@ -18,7 +18,7 @@ const Header = () => {
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
             </button>
             <img src={logo} alt="Sketch's logo" className="logo"/>
-            <a href="https://www.sketch.com/signin/" className="sign-in--link">Sign In</a>
+            <a href="https://www.sketch.com/signin/" className="sign-in--link desktop--invisible">Sign In</a>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li onClick={() => (setOpenProduct(!openProduct), setOpenLearn(false), setOpenSupport(false))} className={`dropdown--button ${openProduct ? "active" : ""}`}><span>Product</span> <Arrow className={`arrow ${openProduct ? "rotate" : ""}`}/>
@@ -42,14 +42,15 @@ const Header = () => {
                         </ul>
                     </li>
                     <li><a href="https://www.sketch.com/apps/">Apps</a></li>
-                    <li><a href="https://www.sketch.com/pricing/">Pricing</a></li>
-                    <li onClick={() => (setOpenSupport(!openSupport), setOpenLearn(false), setOpenProduct(false))} className={`dropdown--button ${openSupport ? "active" : ""}`}><span>Support</span> <Arrow className="arrow"/>
+                    <li className="pricing--li"><a href="https://www.sketch.com/pricing/">Pricing</a></li>
+                    <li onClick={() => (setOpenSupport(!openSupport), setOpenLearn(false), setOpenProduct(false))} className={`dropdown--button support--li ${openSupport ? "active" : ""}`}><span>Support</span> <Arrow className="arrow"/>
                         <ul className={`dropdown ${openSupport ? "show" : ""}`}>
                             <li><a href="https://www.sketch.com/support/">Help Center</a></li>
                             <li><a href="https://www.sketch.com/support/contact/">Contact Us</a></li>
                             <li><a href="https://status.sketch.com/?_ga=2.230960919.902580692.1658032638-738430831.1655528579" className="status">Service Status <SideArrow className="side--arrow"/></a></li>
                         </ul>
                     </li>
+                    <li className="mobile--invisible"><a href="https://www.sketch.com/signin/" className="sign-in--link">Sign In</a></li>
                     <li><a href="https://www.sketch.com/signup/" className="get--started">Get started for free</a></li>
                 </ul>
             </nav>
