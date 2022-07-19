@@ -148,6 +148,7 @@ header .logo {
   bottom: 1rem;
   top: 1rem;
   margin: 0 auto;
+  fill: #000;
 }
 
 header .sign-in--link {
@@ -372,6 +373,13 @@ header nav .header--nav--ul .dropdown.show {
   header .logo {
     position: unset;
     margin: unset;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  header .logo:hover {
+    opacity: .48;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   header nav {
     -webkit-box-flex: 1;

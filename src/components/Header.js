@@ -1,5 +1,6 @@
 import { useState } from "react";
-import logo from "../images/logo.svg";
+// import logo from "../images/logo.svg";
+import { ReactComponent as Logo } from "../images/logo.svg";
 import { ReactComponent as Arrow } from "../images/arrow.svg";
 import { ReactComponent as SideArrow } from "../images/side_arrow.svg";
 
@@ -17,7 +18,7 @@ const Header = () => {
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
             </button>
-            <a href="https://www.sketch.com/home/" className="logo--link"><img src={logo} alt="Sketch's logo" className="logo"/></a>
+            <a href="https://www.sketch.com/home/" className="logo--link"><Logo className="logo"/></a>
             <a href="https://www.sketch.com/signin/" className="sign-in--link desktop--invisible">Sign In</a>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>

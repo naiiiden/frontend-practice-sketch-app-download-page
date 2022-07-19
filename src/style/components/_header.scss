@@ -68,6 +68,8 @@ header {
         bottom: 1rem;
         top: 1rem;
         margin: 0 auto;
+        fill: #000;
+
     }
 
     .sign-in--link {
@@ -231,6 +233,12 @@ header {
         .logo {
             position: unset;
             margin: unset;
+            transition: .2s;
+
+            &:hover {
+                opacity: .48;
+                transition: .2s;
+            }
         }
 
         nav {
