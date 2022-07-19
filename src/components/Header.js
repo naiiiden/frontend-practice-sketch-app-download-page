@@ -31,7 +31,7 @@ const Header = () => {
                             <li><a href="https://www.sketch.com/updates/">Updates</a></li>
                         </ul>
                     </li>
-                    <li onClick={() => (setOpenLearn(!openLearn), setOpenProduct(false), setOpenSupport(false))} className={`dropdown--button ${openLearn ? "active" : ""}`}><span>Learn</span> <Arrow className="arrow"/>
+                    <li onClick={() => (setOpenLearn(!openLearn), setOpenProduct(false), setOpenSupport(false))} className={`dropdown--button ${openLearn ? "active" : ""}`}><span>Learn</span> <Arrow className={`arrow ${openLearn ? "rotate" : ""}`}/>
                         <ul className={`dropdown ${openLearn ? "show" : ""}`}>
                             <li><a href="https://www.sketch.com/blog/">Blog</a></li>
                             <li><a href="https://www.sketch.com/courses/sketch-101/">Course: Sketch 101</a></li>
@@ -43,7 +43,7 @@ const Header = () => {
                     </li>
                     <li><a href="https://www.sketch.com/apps/">Apps</a></li>
                     <li className="pricing--li"><a href="https://www.sketch.com/pricing/">Pricing</a></li>
-                    <li onClick={() => (setOpenSupport(!openSupport), setOpenLearn(false), setOpenProduct(false))} className={`dropdown--button support--li ${openSupport ? "active" : ""}`}><span>Support</span> <Arrow className="arrow"/>
+                    <li onClick={() => (setOpenSupport(!openSupport), setOpenLearn(false), setOpenProduct(false))} className={`dropdown--button support--li ${openSupport ? "active" : ""}`}><span>Support</span> <Arrow className={`arrow ${openSupport ? "rotate" : ""}`}/>
                         <ul className={`dropdown ${openSupport ? "show" : ""}`}>
                             <li><a href="https://www.sketch.com/support/">Help Center</a></li>
                             <li><a href="https://www.sketch.com/support/contact/">Contact Us</a></li>
