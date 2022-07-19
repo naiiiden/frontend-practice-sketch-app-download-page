@@ -434,12 +434,30 @@ header nav .header--nav--ul .dropdown.show {
   }
   header nav .header--nav--ul li a {
     font-family: marfa-medium;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   header nav .header--nav--ul li a.get--started {
     margin-top: unset;
   }
+  header nav .header--nav--ul li a:hover {
+    color: rgba(0, 0, 0, 0.48);
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
   header nav .header--nav--ul li.dropdown--button {
     font-family: marfa-medium;
+    -webkit-transition: .2s;
+    transition: .2s;
+    cursor: pointer;
+  }
+  header nav .header--nav--ul li.dropdown--button:hover {
+    color: rgba(0, 0, 0, 0.48);
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  header nav .header--nav--ul li.dropdown--button:hover .arrow {
+    stroke: rgba(0, 0, 0, 0.48);
   }
   header nav .header--nav--ul li.support--li {
     margin-left: auto;

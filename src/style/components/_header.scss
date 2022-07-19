@@ -294,14 +294,31 @@ header {
 
                     a {
                         font-family: marfa-medium;
+                        transition: .2s;
 
                         &.get--started {
                             margin-top: unset;
+                        }
+
+                        &:hover {
+                            color: rgba(0, 0, 0, .48);
+                            transition: .2s;
                         }
                     }
 
                     &.dropdown--button {
                         font-family: marfa-medium;
+                        transition: .2s;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: rgba(0, 0, 0, .48);
+                            transition: .2s;
+
+                            .arrow {
+                                stroke: rgba(0, 0, 0, .48);
+                            }
+                        }
                     }
 
                     &.support--li {
