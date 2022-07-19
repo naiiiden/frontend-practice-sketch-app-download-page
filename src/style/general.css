@@ -215,6 +215,7 @@ header nav .header--nav--ul a.get--started {
   min-height: 2.5rem;
   font-size: .875rem;
   font-weight: 600;
+  font-family: marfa-regular;
   background: #000;
   color: #fff;
   width: 100%;
@@ -278,6 +279,11 @@ header nav .header--nav--ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: marfa-medium;
+}
+
+header nav .header--nav--ul li a {
+  font-family: marfa-medium;
 }
 
 header nav .header--nav--ul li .arrow {
@@ -309,6 +315,10 @@ header nav .header--nav--ul .dropdown--button {
 header nav .header--nav--ul .dropdown--button .arrow {
   -webkit-transition: .125s;
   transition: .125s;
+}
+
+header nav .header--nav--ul .dropdown--button a {
+  font-family: marfa-regular;
 }
 
 header nav .header--nav--ul .dropdown--button span {

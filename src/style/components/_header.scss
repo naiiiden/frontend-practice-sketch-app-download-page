@@ -116,6 +116,7 @@ header {
                     min-height: 2.5rem;
                     font-size: .875rem;
                     font-weight: 600;
+                    font-family: marfa-regular;
                     background: #000;
                     color: #fff;
                     width: 100%;
@@ -160,6 +161,11 @@ header {
                 min-height: 3rem;
                 display: flex;
                 align-items: center;
+                font-family: marfa-medium;
+                
+                a {
+                    font-family: marfa-medium;
+                }
 
                 .arrow {
                     transition: .125s;
@@ -180,6 +186,10 @@ header {
 
                 .arrow {
                     transition: .125s;
+                }
+
+                a {
+                    font-family: marfa-regular;
                 }
 
                 span {
