@@ -415,6 +415,7 @@ header nav .header--nav--ul .dropdown.show {
     transition: .2s;
   }
   header nav .header--nav--ul li .dropdown.show a:hover {
+    color: #212123;
     background-color: #f5f5f5;
     border-radius: 6px;
     -webkit-transition: .2s;
@@ -440,6 +441,12 @@ header nav .header--nav--ul .dropdown.show {
   header nav .header--nav--ul li a.get--started {
     margin-top: unset;
   }
+  header nav .header--nav--ul li a.get--started:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.85);
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
   header nav .header--nav--ul li a:hover {
     color: rgba(0, 0, 0, 0.48);
     -webkit-transition: .2s;
@@ -450,6 +457,9 @@ header nav .header--nav--ul .dropdown.show {
     -webkit-transition: .2s;
     transition: .2s;
     cursor: pointer;
+  }
+  header nav .header--nav--ul li.dropdown--button .arrow {
+    margin: 0 8px;
   }
   header nav .header--nav--ul li.dropdown--button:hover {
     color: rgba(0, 0, 0, 0.48);
