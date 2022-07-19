@@ -485,6 +485,7 @@ header nav .header--nav--ul .dropdown.show {
   }
   header nav .header--nav--ul li a.get--started {
     margin-top: unset;
+    font-family: marfa-regular;
   }
   header nav .header--nav--ul li a.get--started:hover {
     color: #fff;
