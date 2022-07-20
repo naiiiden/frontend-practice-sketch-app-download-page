@@ -61,40 +61,43 @@
                 
             }
 
-            @keyframes slide {
-                0% {
-                    opacity: 0;
-                    transform: translateY(3rem);
-                }
-
-                25% {
-                    opacity: 0;
-                    transform: translateY(3rem);
-                }
-
-                50% {
-                    opacity: 0;
-                    transform: translateY(3rem);
-                }
-
-                75% {
-                    opacity: 0;
-                    transform: translateY(3rem);
-                }
-
-                100% {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-
+            
         }
     }
-
+    
     p {
         font-size: 1.25rem;
         font-family: marfa-light;
         line-height: 1.75rem;
+        animation-name: slide;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes slide {
+        0% {
+            opacity: 0;
+            transform: translateY(3rem);
+        }
+
+        25% {
+            opacity: 0;
+            transform: translateY(3rem);
+        }
+
+        50% {
+            opacity: 0;
+            transform: translateY(3rem);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(3rem);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 }
 

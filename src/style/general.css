@@ -625,6 +625,16 @@ header nav .header--nav--ul .dropdown.show {
           animation-duration: 2.4s;
 }
 
+.hero--section p {
+  font-size: 1.25rem;
+  font-family: marfa-light;
+  line-height: 1.75rem;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
 @-webkit-keyframes slide {
   0% {
     opacity: 0;
@@ -679,12 +689,6 @@ header nav .header--nav--ul .dropdown.show {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-}
-
-.hero--section p {
-  font-size: 1.25rem;
-  font-family: marfa-light;
-  line-height: 1.75rem;
 }
 
 @media screen and (min-width: 768px) {
