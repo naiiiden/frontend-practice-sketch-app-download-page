@@ -735,4 +735,10 @@ header nav .header--nav--ul .dropdown.show {
     margin: 5rem 8vw;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .features--container {
+    margin: 6rem 16vw;
+  }
+}
 /*# sourceMappingURL=general.css.map */
