@@ -13,6 +13,82 @@
         font-weight: 900;
         line-height: 2.5rem;
         letter-spacing: -.5px;
+        display: inline-block;
+
+        span {
+            display: inline-block;
+            margin-left: 16px;
+            animation-name: slide;
+            animation-duration: 1s;
+            // animation-delay: 1s;
+
+            &.span2 {
+                // animation-delay: .2s;
+                animation-duration: 1.2s;
+            }
+
+            &.span3 {
+                // animation-delay: .4s;
+                animation-duration: 1.4s;
+                
+            } 
+
+            &.span4 {
+                // animation-delay: .6s;
+                animation-duration: 1.6s;
+            }
+
+            &.span5 {
+                // animation-delay: .8s;
+                animation-duration: 1.8s;
+                
+            }
+
+            &.span6 {
+                // animation-delay: 1s;
+                animation-duration: 2s;
+                
+            }
+
+            &.span7 {
+                // animation-delay: 1.2s;
+                animation-duration: 2.2s;
+            }
+
+            &.span8 {
+                // animation-delay: 1.4s;
+                animation-duration: 2.4s;
+                
+            }
+
+            @keyframes slide {
+                0% {
+                    opacity: 0;
+                    transform: translateY(3rem);
+                }
+
+                25% {
+                    opacity: 0;
+                    transform: translateY(3rem);
+                }
+
+                50% {
+                    opacity: 0;
+                    transform: translateY(3rem);
+                }
+
+                75% {
+                    opacity: 0;
+                    transform: translateY(3rem);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+        }
     }
 
     p {

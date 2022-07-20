@@ -578,6 +578,107 @@ header nav .header--nav--ul .dropdown.show {
   font-weight: 900;
   line-height: 2.5rem;
   letter-spacing: -.5px;
+  display: inline-block;
+}
+
+.hero--section .hero--heading span {
+  display: inline-block;
+  margin-left: 16px;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.hero--section .hero--heading span.span2 {
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+}
+
+.hero--section .hero--heading span.span3 {
+  -webkit-animation-duration: 1.4s;
+          animation-duration: 1.4s;
+}
+
+.hero--section .hero--heading span.span4 {
+  -webkit-animation-duration: 1.6s;
+          animation-duration: 1.6s;
+}
+
+.hero--section .hero--heading span.span5 {
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+}
+
+.hero--section .hero--heading span.span6 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.hero--section .hero--heading span.span7 {
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+}
+
+.hero--section .hero--heading span.span8 {
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  25% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  75% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  25% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  75% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .hero--section p {
