@@ -81,3 +81,9 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 1280px) {
+    footer {
+        margin: 5rem 8vw;
+    }
+}
