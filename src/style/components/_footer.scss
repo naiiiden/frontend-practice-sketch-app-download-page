@@ -170,17 +170,43 @@ footer {
                 }
             }
         }
+
+        .footer--bottom {
+            margin-bottom: unset;
+
+            .footer--logo {
+                transition: .2s;
+
+                &:hover {
+                    opacity: 0.8;
+                    transition: .2s;
+                }
+            }
+
+            .socials--ul {
+                li {
+                    a {
+                        transition: .2s;
+
+                        &:hover {
+                            opacity: 0.8;
+                            transition: .2s;    
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 @media screen and (min-width: 1280px) {
     footer {
-        margin: 5rem 8vw;
+        margin: 5rem 8vw 3rem 8vw;
     }
 }
 
 @media screen and (min-width: 1600px) {
     footer {
-        margin: 6rem 16vw;
+        margin: 6rem 16vw 3rem 8vw;
     }
 }
