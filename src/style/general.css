@@ -371,6 +371,15 @@ header nav .header--nav--ul .dropdown.show {
 }
 
 @media screen and (min-width: 1024px) {
+  .click--outside {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
   header {
     -webkit-box-shadow: unset;
             box-shadow: unset;

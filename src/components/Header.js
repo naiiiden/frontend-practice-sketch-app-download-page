@@ -12,6 +12,8 @@ const Header = () => {
     openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
 
     return (
+        <>
+        <div className={`${openProduct || openLearn || openSupport ? "click--outside" : ""}`} onClick={() => (setOpenProduct(false), setOpenLearn(false), setOpenSupport(false))}></div>
         <header className="header">
             <button aria-label="toggle navigation" onClick={() => (setOpenMenu(!openMenu), setOpenProduct(false), setOpenLearn(false), setOpenSupport(false))}>
                 <span className={`menu--toggle--span ${openMenu ? "open" : ""}`}></span>
@@ -57,6 +59,7 @@ const Header = () => {
             </nav>
             <div className={`overlay ${openMenu ? "overlay--open" : ""}`}></div>
         </header>
+        </>
     )
 }
 
