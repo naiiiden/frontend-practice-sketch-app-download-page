@@ -130,6 +130,45 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .features--container {
+        .web--large {
+            display: none;
+        }
+
+        .web--desktop {
+            display: unset;
+        }
+
+        .mac--container, .browser--container, .iphone--container {
+            .text--wrapper {
+                padding: 2rem;
+
+                h2 {
+                    line-height: 2.5rem;
+                    font-size: 2rem;
+                }
+
+                .desc {
+                    font-size: 1.25rem;
+                    line-height: 1.75rem;
+                    margin-bottom: 1.5rem;
+                }
+
+                .blackened--link {
+                    font-size: 1rem;
+                    padding: .6875rem .8125rem;
+                }
+
+                .links--container {
+                    flex-direction: row;
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .features--container {
         margin: 5rem 8vw;

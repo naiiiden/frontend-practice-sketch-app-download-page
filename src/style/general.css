@@ -872,6 +872,38 @@ header nav .header--nav--ul .dropdown.show {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .features--container .web--large {
+    display: none;
+  }
+  .features--container .web--desktop {
+    display: unset;
+  }
+  .features--container .mac--container .text--wrapper, .features--container .browser--container .text--wrapper, .features--container .iphone--container .text--wrapper {
+    padding: 2rem;
+  }
+  .features--container .mac--container .text--wrapper h2, .features--container .browser--container .text--wrapper h2, .features--container .iphone--container .text--wrapper h2 {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+  .features--container .mac--container .text--wrapper .desc, .features--container .browser--container .text--wrapper .desc, .features--container .iphone--container .text--wrapper .desc {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .features--container .mac--container .text--wrapper .blackened--link, .features--container .browser--container .text--wrapper .blackened--link, .features--container .iphone--container .text--wrapper .blackened--link {
+    font-size: 1rem;
+    padding: .6875rem .8125rem;
+  }
+  .features--container .mac--container .text--wrapper .links--container, .features--container .browser--container .text--wrapper .links--container, .features--container .iphone--container .text--wrapper .links--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 1rem;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .features--container {
     margin: 5rem 8vw;
