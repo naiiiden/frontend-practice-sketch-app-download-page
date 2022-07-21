@@ -78,6 +78,26 @@ footer {
         .footer--nav {
             column-gap: unset;
             justify-content: space-between;
+
+            .footer--nav--ul {
+                a {
+                    transition: .2s;
+
+                    .side--arrow {
+                        transition: .2s;
+                    }
+
+                    &:hover {
+                        color: rgba(0, 0, 0, 0.8);
+                        transition: .2s;
+
+                        .side--arrow {
+                            opacity: 0.8;
+                            transition: .2s;
+                        }
+                    }
+                }
+            }
         }
     }
 }

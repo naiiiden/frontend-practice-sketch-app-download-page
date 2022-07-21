@@ -1034,6 +1034,24 @@ footer .footer--nav .footer--nav--ul li a .number--span {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  footer .footer--nav .footer--nav--ul a {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  footer .footer--nav .footer--nav--ul a .side--arrow {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  footer .footer--nav .footer--nav--ul a:hover {
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  footer .footer--nav .footer--nav--ul a:hover .side--arrow {
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
 }
 
 @media screen and (min-width: 1280px) {
