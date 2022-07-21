@@ -585,12 +585,23 @@ header nav .header--nav--ul .dropdown.show {
   font-weight: 900;
   line-height: 2.5rem;
   letter-spacing: -.5px;
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: .5rem;
+          column-gap: .5rem;
 }
 
 .hero--section .hero--heading span {
   display: inline-block;
-  margin-left: 16px;
   -webkit-animation-name: slide;
           animation-name: slide;
   -webkit-animation-duration: 1s;
