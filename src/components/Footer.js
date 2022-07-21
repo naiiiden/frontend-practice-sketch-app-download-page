@@ -53,10 +53,10 @@ const Footer = () => {
             <section className="footer--bottom">
                 <Logo className="footer--logo"/>
                 <ul className="socials--ul">
-                    <Twitter/>
-                    <Instagram/>
-                    <Dribbble/>
-                    <Youtube/>
+                    <li><a href="#"><Twitter className="social"/></a></li>
+                    <li><a href="#"><Instagram className="social"/></a></li>
+                    <li><a href="#"><Dribbble className="social"/></a></li>
+                    <li><a href="#"><Youtube className="social"/></a></li>
                 </ul>
                 <p>© 2022 Sketch B.V.</p>
             </section>
