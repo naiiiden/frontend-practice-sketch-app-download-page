@@ -172,10 +172,23 @@
                 .blackened--link {
                     font-size: 1rem;
                     padding: .6875rem .8125rem;
+
+                    &:hover {
+                        background-color: rgba(0,0,0,.85);
+                    }
                 }
 
                 .links--container {
                     flex-direction: row;
+
+                    a {
+                        transition: .2s;
+
+                        &:hover {
+                            color: rgba(33,33,35,.7);
+                            transition: .2s;
+                        }
+                    }
                 }
             }
         }

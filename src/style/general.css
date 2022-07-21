@@ -909,11 +909,23 @@ header nav .header--nav--ul .dropdown.show {
     font-size: 1rem;
     padding: .6875rem .8125rem;
   }
+  .features--container .mac--container .text--wrapper .blackened--link:hover, .features--container .browser--container .text--wrapper .blackened--link:hover, .features--container .iphone--container .text--wrapper .blackened--link:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
   .features--container .mac--container .text--wrapper .links--container, .features--container .browser--container .text--wrapper .links--container, .features--container .iphone--container .text--wrapper .links--container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .features--container .mac--container .text--wrapper .links--container a, .features--container .browser--container .text--wrapper .links--container a, .features--container .iphone--container .text--wrapper .links--container a {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  .features--container .mac--container .text--wrapper .links--container a:hover, .features--container .browser--container .text--wrapper .links--container a:hover, .features--container .iphone--container .text--wrapper .links--container a:hover {
+    color: rgba(33, 33, 35, 0.7);
+    -webkit-transition: .2s;
+    transition: .2s;
   }
 }
 
