@@ -837,6 +837,41 @@ header nav .header--nav--ul .dropdown.show {
   margin-top: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+  .features--container .mac--small, .features--container .web--small, .features--container .iphone--small {
+    display: none;
+  }
+  .features--container .mac--desktop, .features--container .web--large, .features--container .iphone--desktop {
+    display: unset;
+  }
+  .features--container .mac--desktop.mac--desktop, .features--container .web--large.mac--desktop, .features--container .iphone--desktop.mac--desktop {
+    border-top-left-radius: 12px;
+  }
+  .features--container .mac--desktop.iphone--desktop, .features--container .web--large.iphone--desktop, .features--container .iphone--desktop.iphone--desktop {
+    border-bottom-left-radius: 12px;
+  }
+  .features--container .mac--container, .features--container .browser--container, .features--container .iphone--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .features--container .mac--container .text--wrapper, .features--container .browser--container .text--wrapper, .features--container .iphone--container .text--wrapper {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .features--container .mac--container img, .features--container .browser--container img, .features--container .iphone--container img {
+    width: 50%;
+  }
+  .features--container .mac--container.browser--container, .features--container .browser--container.browser--container, .features--container .iphone--container.browser--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .features--container {
     margin: 5rem 8vw;

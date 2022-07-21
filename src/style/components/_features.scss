@@ -93,6 +93,43 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .features--container {
+        .mac--small, .web--small, .iphone--small {
+            display: none;
+        }
+
+        .mac--desktop, .web--large, .iphone--desktop {
+            display: unset;
+
+            &.mac--desktop {
+                border-top-left-radius: 12px;
+            }
+
+            &.iphone--desktop {
+                border-bottom-left-radius: 12px;
+            }
+        }
+
+        .mac--container, .browser--container, .iphone--container {
+            flex-direction: row;
+            // align-items: center;
+
+            .text--wrapper {
+                align-self: center;
+            }
+
+            img {
+                width: 50%;
+            }
+
+            &.browser--container {
+                flex-direction: row-reverse;
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .features--container {
         margin: 5rem 8vw;
