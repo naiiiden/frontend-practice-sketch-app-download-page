@@ -1,4 +1,9 @@
 import { ReactComponent as SideArrow } from "../images/side_arrow.svg";
+import { ReactComponent as Logo } from "../images/logo.svg";
+import { ReactComponent as Twitter } from "../images/socials/twitter.svg";
+import { ReactComponent as Instagram } from "../images/socials/instagram.svg";
+import { ReactComponent as Dribbble } from "../images/socials/dribbble.svg";
+import { ReactComponent as Youtube } from "../images/socials/youtube.svg";
 
 const Footer = () => {
     return (
@@ -45,6 +50,16 @@ const Footer = () => {
                     <li><a href="https://www.sketch.com/apps/#">Cookie Preferences</a></li>
                 </ul>
             </nav>
+            <section className="footer--bottom">
+                <Logo className="footer--logo"/>
+                <ul className="socials--ul">
+                    <Twitter/>
+                    <Instagram/>
+                    <Dribbble/>
+                    <Youtube/>
+                </ul>
+                <p>© 2022 Sketch B.V.</p>
+            </section>
         </footer>
     )
 }

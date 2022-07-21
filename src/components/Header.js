@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import logo from "../images/logo.svg";
 import { ReactComponent as Logo } from "../images/logo.svg";
 import { ReactComponent as Arrow } from "../images/arrow.svg";
 import { ReactComponent as SideArrow } from "../images/side_arrow.svg";
