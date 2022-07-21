@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: marfa-black;
   src: url(../fonts/ABCMarfa-Black.woff2);
@@ -861,6 +862,17 @@ header nav .header--nav--ul .dropdown.show {
         -ms-grid-row-align: center;
         align-self: center;
   }
+  .features--container .mac--container .text--wrapper .links--container, .features--container .browser--container .text--wrapper .links--container, .features--container .iphone--container .text--wrapper .links--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: unset;
+  }
+  .features--container .mac--container .text--wrapper .links--container a:nth-child(1)::after, .features--container .browser--container .text--wrapper .links--container a:nth-child(1)::after, .features--container .iphone--container .text--wrapper .links--container a:nth-child(1)::after {
+    content: "·";
+    margin: 0 12px;
+  }
   .features--container .mac--container img, .features--container .browser--container img, .features--container .iphone--container img {
     width: 50%;
   }
@@ -902,7 +914,6 @@ header nav .header--nav--ul .dropdown.show {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 1rem;
   }
 }
 

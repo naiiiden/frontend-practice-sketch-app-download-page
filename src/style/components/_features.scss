@@ -117,6 +117,18 @@
 
             .text--wrapper {
                 align-self: center;
+
+                .links--container {
+                    flex-direction: row;
+                    gap: unset;
+
+                    a:nth-child(1) {
+                        &::after {
+                            content: "·";
+                            margin: 0 12px;
+                        }
+                    }
+                }
             }
 
             img {
@@ -164,7 +176,6 @@
 
                 .links--container {
                     flex-direction: row;
-                    gap: 1rem;
                 }
             }
         }
