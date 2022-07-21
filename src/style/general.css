@@ -880,6 +880,8 @@ header nav .header--nav--ul .dropdown.show {
     display: unset;
   }
   .features--container .mac--container .text--wrapper, .features--container .browser--container .text--wrapper, .features--container .iphone--container .text--wrapper {
+    width: 45%;
+    margin: auto;
     padding: 2rem;
   }
   .features--container .mac--container .text--wrapper h2, .features--container .browser--container .text--wrapper h2, .features--container .iphone--container .text--wrapper h2 {
