@@ -1025,4 +1025,14 @@ footer .footer--nav .footer--nav--ul li a .number--span {
             column-gap: 7rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  footer .footer--nav {
+    -webkit-column-gap: unset;
+            column-gap: unset;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 /*# sourceMappingURL=general.css.map */
