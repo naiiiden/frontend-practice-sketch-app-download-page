@@ -108,6 +108,39 @@ footer {
         .footer--nav {
             column-gap: 7rem;
         }
+
+        .footer--bottom {
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 1rem;
+
+            .footer--logo {
+                display: unset;
+                opacity: 0.48;
+                flex: 1 1 0%;
+            }
+            
+            .socials--ul {
+                flex: 1 1 0%;
+                margin-bottom: unset;
+                order: 3;
+                justify-content: flex-end;
+
+                li {
+                    .social {
+                        width: 1.25rem;
+                        height: 1.25rem;
+                    }
+                }
+
+            }
+
+            p {
+                flex: 1 1 0%;
+                text-align: center;
+            }
+        }
+
     }
 }
 

@@ -1078,6 +1078,45 @@ footer .footer--bottom p {
     -webkit-column-gap: 7rem;
             column-gap: 7rem;
   }
+  footer .footer--bottom {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 1rem;
+  }
+  footer .footer--bottom .footer--logo {
+    display: unset;
+    opacity: 0.48;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0%;
+            flex: 1 1 0%;
+  }
+  footer .footer--bottom .socials--ul {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0%;
+            flex: 1 1 0%;
+    margin-bottom: unset;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  footer .footer--bottom .socials--ul li .social {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  footer .footer--bottom p {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0%;
+            flex: 1 1 0%;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
