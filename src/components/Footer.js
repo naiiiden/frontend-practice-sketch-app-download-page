@@ -51,12 +51,12 @@ const Footer = () => {
                 </ul>
             </nav>
             <section className="footer--bottom">
-                <Logo className="footer--logo"/>
+                <a href="https://www.sketch.com/home" className="footer--logo"><Logo className="footer--logo"/></a>
                 <ul className="socials--ul">
-                    <li><a href="#"><Twitter className="social"/></a></li>
-                    <li><a href="#"><Instagram className="social"/></a></li>
-                    <li><a href="#"><Dribbble className="social"/></a></li>
-                    <li><a href="#"><Youtube className="social"/></a></li>
+                    <li><a href="https://twitter.com/sketch"><Twitter className="social"/></a></li>
+                    <li><a href="https://www.instagram.com/sketchformac/"><Instagram className="social"/></a></li>
+                    <li><a href="https://dribbble.com/sketch"><Dribbble className="social"/></a></li>
+                    <li><a href="https://www.youtube.com/c/SketchDesign/"><Youtube className="social"/></a></li>
                 </ul>
                 <p>© 2022 Sketch B.V.</p>
             </section>
