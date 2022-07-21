@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/frontend-practice-sketch-app-download-page/static/css/main.5cf31274.css",
+    "main.js": "/frontend-practice-sketch-app-download-page/static/js/main.b124d3f0.js",
+    "static/media/ABCMarfa-Bold.woff2": "/frontend-practice-sketch-app-download-page/static/media/ABCMarfa-Bold.c6c15b6c5e79b78d2866.woff2",
+    "static/media/ABCMarfa-Semibold.woff2": "/frontend-practice-sketch-app-download-page/static/media/ABCMarfa-Semibold.39298bf6e44d1b2c2216.woff2",
+    "static/media/ABCMarfa-Medium.woff2": "/frontend-practice-sketch-app-download-page/static/media/ABCMarfa-Medium.05e3859c19232a63bbba.woff2",
+    "static/media/iphoneapp-image@4xL.avif": "/frontend-practice-sketch-app-download-page/static/media/iphoneapp-image@4xL.da0e88b1acca6fa1c369.avif",
+    "static/media/ABCMarfa-Black.woff2": "/frontend-practice-sketch-app-download-page/static/media/ABCMarfa-Black.15b422a664c725508747.woff2",
+    "static/media/ABCMarfa-Light.woff2": "/frontend-practice-sketch-app-download-page/static/media/ABCMarfa-Light.17627cbc97f21b603590.woff2",
+    "static/media/ABCMarfa-Regular.woff2": "/frontend-practice-sketch-app-download-page/static/media/ABCMarfa-Regular.b6f58331e50bd8584e36.woff2",
+    "static/media/page-background@2x.avif": "/frontend-practice-sketch-app-download-page/static/media/page-background@2x.9732ad18242609175b77.avif",
+    "static/media/iphoneapp-image@4x.avif": "/frontend-practice-sketch-app-download-page/static/media/iphoneapp-image@4x.6c01af9ff3fbfc49d8d5.avif",
+    "static/media/webapp-image@4xL.avif": "/frontend-practice-sketch-app-download-page/static/media/webapp-image@4xL.8942bbcdf869c6caf9df.avif",
+    "static/media/webapp-image@4x.avif": "/frontend-practice-sketch-app-download-page/static/media/webapp-image@4x.09ae1642b60ba1cec6bc.avif",
+    "static/media/iphoneapp-image@4xS.avif": "/frontend-practice-sketch-app-download-page/static/media/iphoneapp-image@4xS.c3313b234be7630b86fd.avif",
+    "static/media/macapp-image@4x.avif": "/frontend-practice-sketch-app-download-page/static/media/macapp-image@4x.d9fd43b8d325f268cadc.avif",
+    "static/media/webapp-image@4xS.avif": "/frontend-practice-sketch-app-download-page/static/media/webapp-image@4xS.5e88ee878783dc4ee0d6.avif",
+    "static/media/macapp-image@4xL.avif": "/frontend-practice-sketch-app-download-page/static/media/macapp-image@4xL.feb5e2e86abef3eaadfe.avif",
+    "static/media/macapp-image@4xS.avif": "/frontend-practice-sketch-app-download-page/static/media/macapp-image@4xS.ac89a125197d2f88d341.avif",
+    "static/media/instagram.svg": "/frontend-practice-sketch-app-download-page/static/media/instagram.73bd9d0f837ff2c83058dd6c6325dc50.svg",
+    "static/media/twitter.svg": "/frontend-practice-sketch-app-download-page/static/media/twitter.cd9e549ed34c43f03b1cf32a30b1d2c9.svg",
+    "static/media/dribbble.svg": "/frontend-practice-sketch-app-download-page/static/media/dribbble.7d0690a4b1c691649e450423a2779123.svg",
+    "index.html": "/frontend-practice-sketch-app-download-page/index.html",
+    "static/media/youtube.svg": "/frontend-practice-sketch-app-download-page/static/media/youtube.1f00785ac930946f5e43e7defc778f91.svg",
+    "static/media/logo.svg": "/frontend-practice-sketch-app-download-page/static/media/logo.116128150f3892828afdb7cbdb05cc51.svg",
+    "static/media/side_arrow.svg": "/frontend-practice-sketch-app-download-page/static/media/side_arrow.e8d386c55ed60818aec8f8428db7bdc2.svg",
+    "static/media/arrow.svg": "/frontend-practice-sketch-app-download-page/static/media/arrow.5618e913b7d85c74719628cbe3049e86.svg",
+    "main.5cf31274.css.map": "/frontend-practice-sketch-app-download-page/static/css/main.5cf31274.css.map",
+    "main.b124d3f0.js.map": "/frontend-practice-sketch-app-download-page/static/js/main.b124d3f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cf31274.css",
+    "static/js/main.b124d3f0.js"
+  ]
+}
