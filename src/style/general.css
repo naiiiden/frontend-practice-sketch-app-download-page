@@ -40,7 +40,12 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: marfa-regular;
+}
+
+main {
   background: url("../images/page-background@2x.avif");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 img {
