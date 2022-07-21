@@ -444,8 +444,8 @@ header nav .header--nav--ul .dropdown.show {
     opacity: 0;
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    -webkit-transition: .1s;
-    transition: .1s;
+    -webkit-transition: .025s;
+    transition: .025s;
     visibility: hidden;
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -459,8 +459,8 @@ header nav .header--nav--ul .dropdown.show {
     opacity: 1;
     -webkit-transform: translateY(3rem);
             transform: translateY(3rem);
-    -webkit-transition: .2s;
-    transition: .2s;
+    -webkit-transition: .4s;
+    transition: .4s;
     visibility: visible;
     -webkit-user-select: all;
        -moz-user-select: all;

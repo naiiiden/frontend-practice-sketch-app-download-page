@@ -291,7 +291,7 @@ header {
                         width: 14rem;
                         opacity: 0;
                         transform: translateY(0);
-                        transition: .1s;
+                        transition: .025s;
                         visibility: hidden;
                         user-select: none;
                         pointer-events: none;
@@ -301,7 +301,7 @@ header {
                             width: 14rem;
                             opacity: 1;
                             transform: translateY(3rem);
-                            transition: .2s;
+                            transition: .4s;
                             visibility: visible;
                             user-select: all;
                             pointer-events: all;
