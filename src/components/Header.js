@@ -21,7 +21,7 @@ const Header = () => {
             </button>
             <a href="https://www.sketch.com/home/" className="logo--link" aria-label="Homepage"><Logo className="logo"/></a>
             <a href="https://www.sketch.com/signin/" className="sign-in--link desktop--invisible">Sign In</a>
-            <nav className="header--nav">
+            <nav className="header--nav" aria-label="Header">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li onClick={() => (setOpenProduct(!openProduct), setOpenLearn(false), setOpenSupport(false))} className={`dropdown--button ${openProduct ? "active" : ""}`}><span>Product</span> <Arrow className={`arrow ${openProduct ? "rotate" : ""}`}/>
                         <ul className={`dropdown ${openProduct ? "show" : ""}`}>
