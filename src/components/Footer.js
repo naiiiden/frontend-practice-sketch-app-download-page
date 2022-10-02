@@ -53,10 +53,10 @@ const Footer = () => {
             <section className="footer--bottom">
                 <a href="https://www.sketch.com/home" className="footer--logo"><Logo className="footer--logo"/></a>
                 <ul className="socials--ul">
-                    <li><a href="https://twitter.com/sketch"><Twitter className="social"/></a></li>
-                    <li><a href="https://www.instagram.com/sketchformac/"><Instagram className="social"/></a></li>
-                    <li><a href="https://dribbble.com/sketch"><Dribbble className="social"/></a></li>
-                    <li><a href="https://www.youtube.com/c/SketchDesign/"><Youtube className="social"/></a></li>
+                    <li><a href="https://twitter.com/sketch" aria-label="Our Twitter"><Twitter className="social"/></a></li>
+                    <li><a href="https://www.instagram.com/sketchformac/" aria-label="Our Instagram"><Instagram className="social"/></a></li>
+                    <li><a href="https://dribbble.com/sketch" aria-label="Our Dribbble"><Dribbble className="social"/></a></li>
+                    <li><a href="https://www.youtube.com/c/SketchDesign/" aria-label="Our Youtube"><Youtube className="social"/></a></li>
                 </ul>
                 <p>© 2022 Sketch B.V.</p>
             </section>
