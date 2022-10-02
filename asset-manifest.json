@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-practice-sketch-app-download-page/static/css/main.5cf31274.css",
-    "main.js": "/frontend-practice-sketch-app-download-page/static/js/main.b124d3f0.js",
+    "main.css": "/frontend-practice-sketch-app-download-page/static/css/main.450c69ee.css",
+    "main.js": "/frontend-practice-sketch-app-download-page/static/js/main.b1bce56a.js",
     "static/media/ABCMarfa-Bold.woff2": "/frontend-practice-sketch-app-download-page/static/media/ABCMarfa-Bold.c6c15b6c5e79b78d2866.woff2",
     "static/media/ABCMarfa-Semibold.woff2": "/frontend-practice-sketch-app-download-page/static/media/ABCMarfa-Semibold.39298bf6e44d1b2c2216.woff2",
     "static/media/ABCMarfa-Medium.woff2": "/frontend-practice-sketch-app-download-page/static/media/ABCMarfa-Medium.05e3859c19232a63bbba.woff2",
@@ -26,11 +26,11 @@
     "static/media/logo.svg": "/frontend-practice-sketch-app-download-page/static/media/logo.116128150f3892828afdb7cbdb05cc51.svg",
     "static/media/side_arrow.svg": "/frontend-practice-sketch-app-download-page/static/media/side_arrow.e8d386c55ed60818aec8f8428db7bdc2.svg",
     "static/media/arrow.svg": "/frontend-practice-sketch-app-download-page/static/media/arrow.5618e913b7d85c74719628cbe3049e86.svg",
-    "main.5cf31274.css.map": "/frontend-practice-sketch-app-download-page/static/css/main.5cf31274.css.map",
-    "main.b124d3f0.js.map": "/frontend-practice-sketch-app-download-page/static/js/main.b124d3f0.js.map"
+    "main.450c69ee.css.map": "/frontend-practice-sketch-app-download-page/static/css/main.450c69ee.css.map",
+    "main.b1bce56a.js.map": "/frontend-practice-sketch-app-download-page/static/js/main.b1bce56a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cf31274.css",
-    "static/js/main.b124d3f0.js"
+    "static/css/main.450c69ee.css",
+    "static/js/main.b1bce56a.js"
   ]
 }
